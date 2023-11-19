@@ -19,13 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <h1>Hola mundi</h1> */}
-      <body className={nunito.className}>
-        <Banner />
-        <Navbar />
-        <Menu />
-        <main className="max-w-10xl mx-auto">{children}</main>
-      </body>
+      <body className={nunito.className}>{children}</body>
     </html>
   );
 }
