@@ -1,5 +1,6 @@
 "use client";
 
+import Information from "@/components/Information";
 import ShopCard from "@/components/ShopCard";
 import Slider from "@/components/Slider";
 import Slideshow from "@/components/Slideshow";
@@ -23,7 +24,18 @@ export default function Home() {
 
           {/* <Slideshow /> */}
         </div>
+
+        <section className="mt-6">
+          <div>
+            <p className="text-2xl font-semibold underline">Tiendas BUHOGT</p>
+            <p className="mt-4">
+            Encuentra los mejores articulos 
+            </p>
+          </div>
+        </section>
       </LayoutMain>
+
+      <Information />
     </>
   );
 }
