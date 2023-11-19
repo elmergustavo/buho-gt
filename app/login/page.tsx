@@ -1,6 +1,7 @@
 import { Login } from "@/components/login/Login";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const page = () => {
   return (
@@ -36,20 +37,23 @@ const page = () => {
               <div className="w-full bg-white rounded-lg sm:p-8">
                 <div className="">
                   <div className="text-xl font-extrabold leading-tight tracking-tight text-gray-900 md:text-3xl lg:text-4xl space-y-6">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={1.5}
-                      stroke="currentColor"
-                      className="w-5 h-5 hover:cursor-pointer"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
-                      />
-                    </svg>
+                    
+                    <Link href="/">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="w-5 h-5 hover:cursor-pointer"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18"
+                        />
+                      </svg>
+                    </Link>
                     <p className="mb-4">Bienvenido a</p>
                     Buhogt.com
                   </div>
@@ -147,7 +151,9 @@ const page = () => {
                           />
                         </svg>
                       </span>
-                      <span className="text-base font-bold">Continue with Google</span>
+                      <span className="text-base font-bold">
+                        Continue with Google
+                      </span>
                     </button>
 
                     <p className="text-sm font-light text-gray-500 ">
