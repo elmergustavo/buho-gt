@@ -14,6 +14,7 @@ const Slider = () => {
   const images = [
     "assets/images/carusel.png",
     "assets/images/carusel2.png",
+    "assets/images/carusel3.png",
   ];
   const url = "";
   return (
