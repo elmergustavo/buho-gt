@@ -25,7 +25,7 @@ const Navbar = () => {
           </p> */}
         </Link>
 
-        <div className="flex items-center gap-5">
+        <div className="flex items-center gap-5 font-semibold">
           {navIcons.map((icon) => (
             <Link href={icon.href} key={icon.alt}>
               <Image

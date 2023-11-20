@@ -1,10 +1,12 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import Information from "@/components/Information";
 import ShopCard from "@/components/ShopCard";
 import Slider from "@/components/Slider";
 import Slideshow from "@/components/Slideshow";
 import LayoutMain from "@/components/layouts/LayoutMain";
+
 
 export default function Home() {
   return (
@@ -36,6 +38,7 @@ export default function Home() {
       </LayoutMain>
 
       <Information />
+      <Footer />
     </>
   );
 }

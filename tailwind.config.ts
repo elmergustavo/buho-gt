@@ -8,6 +8,13 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'nav-border': '#EBEAEA',
+        'light-white': '#FAFAFB',
+        'light-white-100': '#F1F4F5',
+        'light-white-200': '#d7d7d7',
+        'light-white-300': '#F3F3F4',
+        'light-white-400': '#E2E5F1',
+        'light-white-500': '#E4E4E4',
         primary: {
           DEFAULT: "#E43030",
           orange: "#D48D3B",
