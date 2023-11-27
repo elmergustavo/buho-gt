@@ -62,8 +62,10 @@ const page = () => {
                         />
                       </svg>
                     </Link>
-                    <p className="mb-4">Bienvenido a</p>
-                    Buhogt.com
+                    <div className="mb-4 hidden sm:block">
+                      <p className="">Bienvenido a</p>
+                      Buhogt.com
+                    </div>
                   </div>
                   <div className="flex justify-center items-center sm:hidden">
                     <Image
@@ -162,8 +164,7 @@ const page = () => {
                     </div>
 
                     <div className="flex items-center justify-between">
-                      <div className="flex items-start">
-                      </div>
+                      <div className="flex items-start"></div>
                       <a
                         href="#"
                         className="text-sm font-medium text-primary-600 hover:underline "
@@ -173,7 +174,7 @@ const page = () => {
                     </div>
                     <button
                       type="submit"
-                      className="w-full uppercase text-white bg-[#252A61] hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-base py-3  text-center "
+                      className="w-full uppercase text-white bg-primary hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm md:text-base py-3  text-center "
                     >
                       Ingresa
                     </button>
@@ -205,7 +206,7 @@ const page = () => {
                           />
                         </svg>
                       </span>
-                      <span className="text-base font-bold">
+                      <span className="md:text-base font-bold text-sm">
                         Continue with Google
                       </span>
                     </button>
