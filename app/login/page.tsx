@@ -1,13 +1,13 @@
 "use client";
 
-import { Login } from "@/components/login/Login";
+// import { Login } from "@/components/login/Login";
 // import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import CreateAccountForm from "../signup/components";
 
-const page = () => {
+const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [password, setPassword] = useState("");
 
@@ -235,4 +235,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Login;

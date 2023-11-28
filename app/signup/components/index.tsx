@@ -105,7 +105,7 @@ const CreateAccountForm = () => {
           }`}
         >
           Create password
-        </label>
+       
         <div className="relative">
           <Input
             {...register("password", {
@@ -174,10 +174,12 @@ const CreateAccountForm = () => {
           </button>
         </div>
         {errors.password && (
-          <span className="absolute right-3 top-9">
+          <span className="">
             {errors.password.message}
           </span>
         )}
+        </label>
+       
 
         <label
           htmlFor="confirm_password"

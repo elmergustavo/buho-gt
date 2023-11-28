@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export const Login = () => {
@@ -9,8 +10,8 @@ export const Login = () => {
           <div className="hidden w-full xl:block xl:w-1/2">
             <div className="py-17.5 px-26 text-center">
               <a className="mb-5.5 inline-block">
-                <img className="hidden dark:block"  alt="Logo" />
-                <img className="dark:hidden" alt="Logo" />
+                <Image src={''} className="hidden dark:block"  alt="Logo" />
+                <Image src={''} className="dark:hidden" alt="Logo" />
               </a>
 
               <p className="2xl:px-20">

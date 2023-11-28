@@ -16,6 +16,14 @@
   /* box-shadow: 0rem 0rem 2rem 0rem rgba(99, 60, 255, 0.25); */
 }
 
+@media  (max-width: 600px) {
+  .input_email:focus,
+  .input_password:focus {
+    font-size: 14px; /* Ajusta el tamaño del texto para dispositivos móviles */
+    /* Otros estilos específicos para dispositivos móviles aquí */
+  }
+}
+
 @media (max-width: 20rem) {
   .input_email,
   .input_password {

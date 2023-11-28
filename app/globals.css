@@ -279,6 +279,12 @@ select {
   line-height: 150%;
 }
 
+@media only screen and (max-width: 600px) {
+  .BodyS {
+    font-size: 0.90rem;
+  }
+}
+
 /* Estiliza a scrollbar vertical */
 .custom_scrollbar::-webkit-scrollbar {
   width: 0.625rem; /* Largura da scrollbar */
