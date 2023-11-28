@@ -90,7 +90,7 @@ const page = () => {
                           type="email"
                           id="email"
                           placeholder="Enter your email"
-                          className="w-full rounded-lg border border-stroke bg-transparent py-3 pl-4 pr-4 outline-none focus:border-primary focus:outline-none focus:ring-primary-600 focus:border-primary-600 focus-visible:shadow-none "
+                          className="w-full rounded-lg border border-stroke bg-transparent py-3 pl-4 pr-4 outline-none focus:border-primary focus:outline-none focus:ring-primary-600  focus-visible:shadow-none "
                         />
 
                         <span className="absolute right-4 top-4"></span>
@@ -111,7 +111,7 @@ const page = () => {
                           value={password}
                           placeholder="Enter your email"
                           onChange={(e) => setPassword(e.target.value)}
-                          className="w-full rounded-lg border border-stroke bg-transparent py-3 pl-4 pr-4 outline-none focus:border-primary focus:outline-none focus:ring-primary-600 focus:border-primary-600 focus-visible:shadow-none "
+                          className="w-full rounded-lg border border-stroke bg-transparent py-3 pl-4 pr-4 outline-none focus:border-primary focus:outline-none focus:ring-primary-600  focus-visible:shadow-none "
                         />
 
                         <button
@@ -213,12 +213,14 @@ const page = () => {
 
                     <p className="text-sm font-light text-gray-500 ">
                       ¿No tienes una cuenta?{" "}
-                      <a
-                        href="#"
-                        className="font-medium text-primary-600 hover:underline"
-                      >
-                        Regístrate
-                      </a>
+                      <Link href="/signup" className="font-medium text-primary-600 hover:underline">
+                        
+                         
+                          
+                        
+                          Regístrate
+                 
+                      </Link>
                     </p>
                   </form>
                 </div>
