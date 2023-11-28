@@ -5,6 +5,7 @@ import { Login } from "@/components/login/Login";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import CreateAccountForm from "../signup/components";
 
 const page = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -77,7 +78,7 @@ const page = () => {
                   </div>
 
                   <p className="my-4 opacity-70">Ingresa a tu cuenta</p>
-                  <form className="space-y-4 md:space-y-6 my-4" action="#">
+                  {/* <form className="space-y-4 md:space-y-6 my-4" action="#">
                     <div className="mb-4">
                       <label
                         htmlFor="email"
@@ -222,7 +223,8 @@ const page = () => {
                  
                       </Link>
                     </p>
-                  </form>
+                  </form> */}
+                  <CreateAccountForm />
                 </div>
               </div>
             </div>
