@@ -127,7 +127,6 @@ const CreateAccountForm = () => {
           />
 
           <button
-            type="button"
             onClick={togglePasswordVisibility}
             className="absolute top-3 right-4 cursor-pointer"
           >

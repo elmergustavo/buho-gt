@@ -14,7 +14,7 @@ const ButtonPrimary: React.FC<ButtonProps> = ({
   const buttonClassName = twMerge(
     `${style.ButtonPrimary} ${
       disabled ? style.disabled : ""
-    } HeadingS min-h-[46px] w-full relative rounded-lg text-white bg-dark_purple hover:bg-super_light_purple
+    } HeadingS min-h-[46px] w-full relative rounded-lg text-white bg-primary hover:bg-primary-900
     ${showLoadingComponent ? `bg-super_light_purple ${style.shadow}` : ""}
     `,
     className

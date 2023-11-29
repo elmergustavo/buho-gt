@@ -12,10 +12,9 @@
 .input_password:focus {
   background-position: -1.25rem;
   padding-left: 1rem;
-  /* outline: 0.0313rem solid #252A61; */
+  /* outline: 0.0313rem solid #633cff; */
   /* box-shadow: 0rem 0rem 2rem 0rem rgba(99, 60, 255, 0.25); */
 }
-
 
 @media (max-width: 20rem) {
   .input_email,
